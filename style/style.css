@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(63.82deg, #05159E 0%, #D7FDFF 125.57%, #84D3FF 125.58%);
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 599px;
+    width: 1344px;
+    background: linear-gradient(116.46deg, rgba(255, 255, 255, 0.4) 14.63%, rgba(255, 255, 255, 0.1) 68.61%, rgba(217, 217, 217, 0) 68.61%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+
+
+.weather__photo-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: -50px;
+}
+.weather__phoro-img {
+    margin-right: 88px;
+    height: 367px;
+    width: 528px;
+}
+
+.weather__info {
+    border-left: 2px solid #FFFFFF;
+    width: 300px;
+    padding-left: 85px;
+    height: 431px;
+}
+
+
+.weather__city {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 80px;
+}
+
+
+
+.weather__tempEU {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+    margin-bottom: 20px;
+
+}
+.weather__tempUSA {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+
+
+select {
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(116.46deg, rgba(255, 255, 255, 0.4) 14.63%, rgba(255, 255, 255, 0.1) 68.61%, rgba(217, 217, 217, 0) 68.61%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+}
+
+option{
+    color:#fff;
+    background:#369;
+}
+
+.text {
+    margin-left: -80px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
